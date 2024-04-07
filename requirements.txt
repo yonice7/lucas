@@ -1,0 +1,18 @@
+# checking versions for each library
+# pip list --format=columns "{Name}=={Version}" | grep -E "(os|sys|re|datetime|pandas|camelot-py|pdfreader|tabula-py|ghostscript|excalibur-py|python3-tk)"
+# If this returns a depreaction warning do this: pip install gpgme or brew install gpgme, the rerun pip lists...
+# Use pip show [library_name] if you want to know if there's already one of the libraries installed
+
+# It's strongly recommended to set up a virtual environment if you're using macos
+# python -m venv ~/.local/pyvenv
+
+datetime=>5.5
+pandas=>2.2.1
+camelot-py=>0.11.0
+pdfreader=>0.1.12
+tabula-py=>2.9.0
+ghostscript=>0.7
+excalibur-py=>0.4.3
+PyPDF2==2.12.1
+google-api-python-client=>2.124.0
+oauth2client=>4.1.3
